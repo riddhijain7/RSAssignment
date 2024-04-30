@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="container">
+    <div>
+        <h3>Patient Information </h3>
+        <div class="patient_info">
+
+
+            <div class="img">
+                <img class="user_img" src="roundImage.png" alt="User_Image">
+            </div>
+
+            <div class="patient_name">
+                <div>
+                    <label for="">Patient Name</label>
+                    <input class="patient_name_input" type="text" value="DE ANDA JOSE">
+                </div>
+                <div>
+                    <ul class="patient_name_ul">
+                        <li><span class="bo_ld">DOB:</span> 6/18/1957 (66.8y)</li>
+                        <li><span class="bo_ld">Gender:</span> Male</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+            <div class="insurance_div">
+                <label for="">Insurance Case</label>
+                <select class="Insurance" id="">
+                    <option class="insurance_options" value="">Created in kareo - 8/29/2023</option>
+                    <option value="">sbi</option>
+                    <option value="">lic</option>
+                </select>
+                <ul class="insurance_ul">
+                    <li><span class="bo_ld">Primary:</span> MEDICARE</li>
+                    <li><span class="bo_ld">Secondary:</span> None</li>
+                    <li><span class="bo_ld">Conditions:</span> None</li>
+                </ul>
+            </div>
+
+            <div class="food">
+                <select class="food_options" name="food" id="">
+                    <option value="">SALT</option>
+                    <option value="">SUGAR</option>
+                    <option value="">lic</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <h3>Visit & Provide Information</h3>
+    <div class="Visit_Provider">
+
+        <div class="container1">
+            <div class="container_first">
+                <div class="container_first_service">
+                    <label for="DOB">Date of Service:</label>
+                    <input class="service_input" type="text" id="DOB" name="DOB" value="04/30/2024">
+                </div>
+
+                <div>
+                    <label for="">Service Location</label>
+                    <select class="location_section" id="">
+                        <option class="" value="">Medco Healthcare M...</option>
+                        <option value="">sbi</option>
+                        <option value="">lic</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="container_second">
+                <div class="container_second_service">
+                    <input type="checkbox" name="" id="">
+                    <label class="cont_second_label" for="">Use data range</label>
+                </div>
+                <div>
+                    <label class="" for="">Place of Service</label>
+                    <select class="place_section" id="">
+                        <option class="place_section_options" value="">11 - office</option>
+                        <option value="">sbi</option>
+                        <option value="">lic</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+
+            <div class="container2_first">
+
+                <div class="container2_first_provider">
+                    <label for="">Rendering Provider</label>
+                    <select class="rendering_section" id="">
+                        <option class="" value="">KHAN, ABDUL</option>
+                        <option value="">sbi</option>
+                        <option value="">lic</option>
+                    </select>
+                </div>
+
+                <div class="cont2_first_refering">
+                    <select class="referring_provider" id="">
+                        <option value="">Referring Provider</option>
+                        <option value="">sbi</option>
+                        <option value="">lic</option>
+                    </select>
+                    <p class="optional">Optional</p>
+                </div>
+            </div>
+            <div class="container2_second">
+                <div class="cont2_second_scheduling">
+                    <select class="scheduling_provider" id="">
+                        <option class="" value="">Scheduling Provider</option>
+                        <option value="">sbi</option>
+                        <option value="">lic</option>
+                    </select>
+                    <p class="optional">Optional</p>
+                </div>
+
+                <div class="cont2_second_supervising">
+                    <select class="supervising_provider" id="">
+                        <option class="" value="">Supervising Provider</option>
+                        <option value="">sbi</option>
+                        <option value="">lic</option>
+                    </select>
+                    <p class="optional">Optional</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Visit_mode">
+        <h5 class="visit-mode-label">Visit mode: </h5>
+        <div class="visit-options">
+            <input type="radio" id="in_office" name="visit_mode" checked>
+            <label class="visit_label1" for="in_office">In Office Visit</label>
+            <input type="radio" id="telehealth" name="visit_mode">
+            <label class="visit_label1" for="telehealth">Telehealth Visit</label>
+        </div>
+    </div>
+</body>
+
+</html>

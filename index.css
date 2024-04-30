@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    border: 1px solid wheat;
+    /* Add a border with light wheat color */
+    padding: 20px;
+    /* Add some padding to create space between content and border */
+}
+
+
+.patient_info {
+    display: flex;
+    /* justify-content:space-between; */
+
+    flex-direction: row;
+
+}
+
+.patient_name_input {
+    padding: 6px 60px 6px 5px;
+    font-size: 10px;
+    border: 1.5px solid #ccc;
+
+
+}
+
+.insurance_div {
+    padding-right: 50px;
+
+}
+
+.food {
+    padding-top: 13px;
+    border-radius: 30px;
+}
+
+.food_options {
+    border-radius: 20px;
+    padding: 3px 0px 3px 0px;
+    color: #2f5467;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bo_ld {
+    font-weight: bold;
+}
+
+.Insurance {
+    padding: 6px 90px 6px 5%;
+    font-size: 10px;
+    border: 1.5px solid #ccc;
+
+}
+
+.user_img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding-right: 0px;
+    margin-right: 30px;
+}
+
+.patient_name {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+}
+
+.patient_name_ul {
+    list-style-type: none;
+    padding: 0px;
+    font-size: 10px;
+}
+
+.patient_first {
+    display: flex;
+    /* justify-content:space-between; */
+
+    flex-direction: row;
+}
+
+
+
+label {
+    display: block;
+    font-size: 10px;
+}
+
+.insurance_ul {
+    list-style-type: none;
+    padding: 0px;
+    font-size: 10px;
+}
+
+
+.service_input {
+    padding: 6px 60px 6px 6px;
+    font-size: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.location_section {
+    padding: 6px 67px 6px 0px;
+    font-size: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container_first {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.container_second {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.container2_first {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.container_first_service {
+    padding-bottom: 20px;
+}
+
+.container_second_service label {
+    display: inline-block;
+    vertical-align: text-top;
+    padding-top: 3px;
+}
+
+.container2_first_provider {
+    padding-bottom: 26px;
+}
+
+.cont2_second_scheduling {
+    padding-top: 9px;
+}
+
+.cont_second_label {
+    padding-bottom: 32px;
+}
+
+.optional {
+    font-size: 8px;
+}
+
+.place_section {
+    padding: 6px 100px 6px 0px;
+    font-size: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 3px;
+
+}
+
+.rendering_section {
+    padding: 6px 80px 6px 0px;
+    font-size: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 3px;
+
+}
+
+.scheduling_provider {
+    padding: 6px 67px 6px 0px;
+    font-size: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 3px;
+}
+
+.supervising_provider {
+    padding: 6px 67px 6px 0px;
+    font-size: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 3px;
+}
+
+.referring_provider {
+    padding: 6px 67px 6px 0px;
+    font-size: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 3px;
+}
+
+.Visit_Provider {
+    display: flex;
+    flex-direction: row;
+}
+
+.Visit_mode {
+    display: flex;
+    align-items: center;
+}
+
+.visit-mode-label {
+    margin-right: 6px;
+    /* Adjust margin as needed */
+}
+
+.visit_label1 {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.visit-options input[type="radio"],
+.visit-options label {
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 0px;
+}
+
+
+input[type=radio]#in_office {
+    accent-color: #2f5467;
+}
